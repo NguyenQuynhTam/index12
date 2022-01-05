@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>SI BAKERY</title>
+	
+<!-- TemplateEndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/x-icon" href="../image/Artboard 4-8.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<!------------BACK TO TOP-------------->
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<header>
+		<nav class="navbar navbar-expand-lg bg-light navbar-light">
+
+		<a href="../index.html"><img src="../image/Artboard 4-8.png" class="pl-3" ></a>
+			<div class="container p-1" align="right" >
+
+			
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="menu">
+			<ul class="navbar-nav mx-auto">
+				
+				<li class="nav-item p-3"><a href="#" class="nav-link text-dark">TRANG CHỦ</a></li>
+				<li class="nav-item active dropdown p-3">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> MENU</a>
+					<div class="dropdown-menu mega-menu">
+			  <div class="row">
+			<div class="col-md-6 col-lg-3">
+			  <h4 class="dropdown-header text-dark">ĐỒ UỐNG</h4>
+			     <a href="#" class="dropdown-item nav-link">Waffle cone</a>
+				  <a href="#" class="dropdown-item nav-link">Chocolate</a>
+				  <a href="#" class="dropdown-item nav-link">Sprinkle</a>
+				  <a href="#" class="dropdown-item nav-link">Sugar</a>
+			  </div>
+				  <div class="col-md-6 col-lg-3">
+			  <h4 class="dropdown-header text-dark">BÁNH</h4>
+			     <a href="#" class="dropdown-item nav-link">Cup cake</a>
+				  <a href="#" class="dropdown-item nav-link">Chocolate</a>
+				  <a href="#" class="dropdown-item nav-link">Macaroon</a>
+				  <a href="#" class="dropdown-item nav-link">Corn</a>
+			  </div>
+			<div class="col-md-6 col-lg-3">
+			  <h4 class="dropdown-header">KEM</h4>
+			     <a href="#" class="dropdown-item nav-link ">Italic Ice</a>
+				  <a href="#" class="dropdown-item nav-link ">Persian Ice</a>
+				  <a href="#" class="dropdown-item nav-link ">Classic Vanilla</a>
+				  <a href="#" class="dropdown-item nav-link ">Sherbet</a>
+			  </div>
+			  <div class="col-md-6 col-lg-3">
+			  <h4 class="dropdown-header text-dark">FULL COMBO</h4>
+			     <a href="#" class="dropdown-item nav-link">Waffle cone</a>
+				  <a href="#" class="dropdown-item nav-link ">Chocolate</a>
+				  <a href="#" class="dropdown-item nav-link">Sprinkle</a>
+				  <a href="#" class="dropdown-item nav-link ">Sugar</a>
+			  </div>			 
+			</div>
+			<div class="row px-4">
+			  <div class="col-md-5 mb-4"><img src="../image/3950970.png" class="w-100"></div>
+			  <div class="col-md-5"><img src="../image/123.png" class="w-100"></div>
+			  
+			  </div>
+			</div>
+			</li>		
+				<li class="nav-item active dropdown p-3">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">TRANG KHÁC</a>
+					<div class="dropdown-menu">
+					<a href="../ourstaff.html" class="dropdown-item nav-link">Nhân viên</a>
+					<a href="../ourprice.html" class="dropdown-item nav-link">Bảng giá</a>
+					<a href="../recipes.html" class="dropdown-item nav-link">Đánh giá</a>	
+					</div>
+				</li>
+				<li class="nav-item p-3"><a href="../about.html" class="nav-link text-dark">BLOG</a></li>
+				<li class="nav-item p-3"><a href="#" class="nav-link text-dark">LIÊN HỆ</a></li>
+
+			  </ul>
+				<div class="navbar-text ">
+				<a href="#"><i class="fa fa-shopping-cart fa-2x m-3 " aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-search fa-2x m-3" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			</div>
+		</nav>
+	</header>
+	<!-- TemplateBeginEditable name="noidung" -->
+	<main></main>
+	<!-- TemplateEndEditable -->
+<footer class="bg-light p-4">
+  <div class="container">
+		<div class="row justify-content-between text-center text-md-left">
+		<div class="col-md-4">
+			<img src="../image/Artboard 4-8.png" class="mb-3">
+			<p style="font-size: 12pt">SI BAKERY là một thương hiệu bánh ngọt với phong cách và hương vị đặc biệt, kết hợp giữa ẩm thực Pháp và những tinh hoa, truyền thống của ẩm thực Á Đông</p>
+			<p><i class="fa fa-facebook-official fa-lg text-primary p-1"></i>
+			<i class="fa fa-instagram fa-lg text-info p-1"></i>
+				<i class="fa fa-youtube fa-lg text-danger p-1"></i>
+				<i class="fa fa-twitter fa-lg text-success p-1"></i>
+			
+			</p>
+		  </div>
+		<div class="col-md-3">
+			<h5 class="mb-3">GIỜ MỞ CỬA</h5>
+			<p>THỨ 2: 9:00 AM- 10:00 PM<br>
+			THỨ 7-CN:<br>
+			7:00 AM - 9:00 PM</p>
+			
+		  </div>
+			<div class="col-md-4">
+			<h5>LIÊN HỆ</h5>
+				<p><b>Địa chỉ: </b>  210 Hai Bà Trưng, Tân Định, Quận 1,TP.HCM</p>
+				<p><strong>Email:  </strong>si@gmail.com</p>
+				<p><b>SĐT: </b> +44 987-654-3210</p>
+				<p><b>Fax:  </b>1-800-1234-567</p>
+			
+			</div>
+  </div>	</div>
+		<div class="  border-top pt-4 border-secondary">
+		<p class="text-center">Copyright © 2020 SIDONNUT, Design by QT.  </p>
+		<a id="button"></a>
+		</div>
+	
+	</footer>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<!-------------------BACK TO TOP------------>
+	<script>
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+</script>
+</body>
+</html>

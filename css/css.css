@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'font';	
+	src: url('../font/UTM Times.ttf');	
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'fon1';	
+	src: url('../font/UTM Aquarelle.ttf');	
+	font-weight: normal;
+	font-style: normal;	
+}
+body{
+	font-family: 'font';	}
+h1,h2,h3{font-family: 'font1', serif; color: #4b4b4b}
+.tde{font-family: 'font'}
+h1{font-size: 60px}
+h2{font-size: 42px}
+
+
+.mega-menu{ width: 600%; left: -200%}	
+@media (max-width:992px){
+	.mega-menu{ width: 100%; left: 0}
+}
+
+.page-title{
+	background: url("../image/Blog-title.jpg") no-repeat center; mind-height: 300px;}
+.bg-mo {background-color:rgba(255,255,255,0.51);}
+.bg-den {background-color: rgba(1,1,1,0.3)}
+aside .nav-link{ border-bottom: 1px solid#DDDDDD; color:#666666;font-size: 18px; padding-left: 25px; background: url("../image/nav-link-dot.png") no-repeat left 5px center;}
+.bg-blue{background-color:#5EB8C0}
+#welcome{ background-image:url("../image/4261-[Converted].png");
+background-repeat: no-repeat;
+background-position:top center;
+min-height: 700px;}
+#welcome .wel img{ border: 5px  solid #FF6265;transition:all .5s; }
+#welcome .wel:hover>img{filter:  blur(7px);}
+#welcome .wel .detail{ position: absolute;width: 100%; left: 0%; top: 40%; color: #FCFCFC; font-size: 30px;text-shadow: 30px #FCFCFC ;
+text-align: center; font-size:30px;  opacity: 0; transition: all 0.5s}
+#welcome .wel:hover> .detail{opacity:1; top 60%}
+#hight-quality{background: url("../image/8e24de746732d9f35edc18e97ec8d754.png") no-repeat center; mind-height:500px;}
+
+#flavour{background-image:url("../image/4261.png");background-position: center;
+background-repeat: no-repeat,no-repeat;
+min-heigt:700px;}
+.f-cream{background: url("../image/36d1e93098a2b1ae4bd123773b561c9d.png") no-repeat center top;}
+.rounded-30{border-radius: 30px;}
+#trending .nav-link {
+	background: url("../image/pink_180x180 1.png") no-repeat;
+	background-position: center -50%;
+	height: 180px; width: 180px; margin: 0 10px; 
+	display: flex;	align-items: center; justify-content: center; 
+	color: #FE0093;font-weight: bold}
+#trending .nav-link:hover {
+	background: url("../image/sandal_180x180 1.png") no-repeat;
+	background-position: center -50%;
+	height: 180px; width: 180px; margin: 0 10px; 
+	display: flex;	align-items: center; justify-content: center; 
+	color: #FE8D05;font-weight: bold}
+
+#trending .kem-tab{position: relative; transition: all .5s}
+#trending .kem-tab .overlay{ background:rgba(245,148,149,.6); width: 100%; height: 100%; position: absolute; left: 0;top: 0;border-radius:30px;display: flex; justify-content: center; flex-direction: column;opacity: 0;transition: all .5s }
+#trending .kem-tab:hover{box-shadow: 1px 1px 5px #666}
+#trending .kem-tab:hover > .overlay{opacity: 1}
+#prices{background:url("../image/8b650c33197722d25c8c92df409e7831.png") repeat-x;min-height:700px;}
+#soluong{ border border-radius:20px; width:50%;min-height: auto;  }
+#khachhang { background: url("../image/1.png") no-repeat center; min-height: 400px; width: 100%;}
+#khachhang .carousel-indicators{ bottom:-50px; }
+#khachhang .carousel-indicators li{background-color:#FFC0C1;background-clip: padding-box;}
+#khachhang .carousel-indicators li .active{background-color:#F9ACAE;}
+#khachhang img{border-radius: 7px solid #FFC8CB ;}
+#contact {background: url("../image/a3448aa9ddecd26d9212a16b3bbefa25.png") no-repeat center; min-height: 500px;}
+
+#standards{background: url("../image/image 27.png")  center; min-height: 100%; width:100%;}
+
+#staff .carousel-indicators{ bottom:-50px; }
+#staff .carousel-indicators li{background-color:#DDDDDD;background-clip: padding-box;}
+#staff .carousel-indicators li .active{background-color:#D7FE83;}
+#staff img{border: 5px solid #D7FE83 ;}
+
+#chef {background: url("../image/bg-contact.jpg")  center; min-height: 100%; width:100%;}
+.follow{border-radius: #8FA83B 1px;}
+
+#quangcao{ background: url("../image/price-section-2.png") no-repeat center; min-height: 400px;}
+.tim{ width:100%}
+
+#recipes .wel img{ border: 5px  solid #FFEDA6;transition:all .5s; }
+#recipes .wel:hover>img{filter: hue-rotate(-50deg)}
+#recipes .wel .detail{ position: absolute;width: 100%; left: 0%; top: 40%; color: #FFFFFF; font-size: 40px;text-shadow: 5px;
+text-align: center; font-size:40px;  opacity: 0; transition: all 0.5s}
+#recipes .wel:hover> .detail{opacity:1; top 70%}
+#timkiem{ text-decoration: none;}
+
+/*                   BACKTOTOP           */
+
+#button {
+  display: inline-block;
+  background-color: #FF0080;
+	text-decoration: none; 
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color:#FF8CDF;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
